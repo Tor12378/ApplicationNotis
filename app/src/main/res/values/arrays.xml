@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_times">
+        <item>10 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <!-- Добавьте другие значения по вашему усмотрению -->
+    </string-array>
+
+    <string-array name="reminder_times_values">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <!-- Добавьте соответствующие значения по вашему усмотрению -->
+    </string-array>
+</resources>

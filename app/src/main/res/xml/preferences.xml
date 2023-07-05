@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Настройки">
+
+        <CheckBoxPreference
+            android:key="enable_notifications"
+            android:title="Включить уведомления"
+            android:summary="Получать уведомления о событиях" />
+
+        <ListPreference
+            android:key="reminder_time"
+            android:title="Время напоминания"
+            android:summary="Выберите время для напоминания"
+            android:entries="@array/reminder_times"
+            android:entryValues="@array/reminder_times_values"
+            android:defaultValue="10" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
